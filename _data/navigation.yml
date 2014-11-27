@@ -1,0 +1,17 @@
+- name: Courses
+  url: /courses
+
+- name: Masterclasses
+  url: /masterclasses
+
+- name: Workshops
+  url: /workshops
+
+- name: Seminars
+  url: /seminars
+
+- name: Publications
+  url: /publications
+
+- name: People
+  url: /people

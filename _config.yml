@@ -1,0 +1,40 @@
+# Site settings
+title: GCEP
+email: econdesk@georgetown.edu
+description: "GCER is sponsored by the Department of Economics in Georgetown University. Its primary goal is to foster an environment of open and rigorous scientific inquiry into current economic policy issues and problems, and to communicate its findings to academics and policy makers."
+baseurl: ""
+
+url: "http://localhost:3000/"
+excerpt_separator: "@@@"
+paginate: 5
+paginate_path: "archive/page:num"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: [Gemfile, Gemfile.lock, Procfile, vendor]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      can_be_shown_in_index: "true" # All posts can be shown in the main page, by default, unless overridden.
+
+prose:
+  media: "assets/images"
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Post date (YYYY-MM-DD HH:MM:SS)"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
