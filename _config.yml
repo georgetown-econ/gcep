@@ -1,7 +1,7 @@
 # Site settings
 title: GCEP
 email: econdesk@georgetown.edu
-description: "GCER is sponsored by the Department of Economics in Georgetown University. Its primary goal is to foster an environment of open and rigorous scientific inquiry into current economic policy issues and problems, and to communicate its findings to academics and policy makers."
+description: "GCEP is an initiative by the Department of Economics in Georgetown University and CEMMAP."
 baseurl: ""
 
 url: "http://localhost:3000/"
