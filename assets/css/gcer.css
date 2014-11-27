@@ -425,3 +425,19 @@ a:visited { color: #205caa; }
   font-size: 1.25em;
   display: table-cell;
 }
+
+.seminar {
+  padding-bottom: 20px;
+}
+
+.publication {
+  padding-bottom: 25px;
+}
+
+.publication .detail {
+  display: block;
+}
+
+.publication .authors {
+  font-size: 14px;
+}
