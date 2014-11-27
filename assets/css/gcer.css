@@ -441,3 +441,9 @@ a:visited { color: #205caa; }
 .publication .authors {
   font-size: 14px;
 }
+
+.sm-mint a:hover {
+		border-bottom-color:#b9d9ec !important;
+		background:#b9d9ec;
+		color:#000;
+}
