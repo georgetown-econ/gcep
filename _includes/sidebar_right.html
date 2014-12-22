@@ -1,0 +1,9 @@
+<div class="right-panel announcements">
+  <h2>Announcements</h2>
+
+    {% for announcement in site.data.announcements %}
+    <div class="announcement">
+      {{ announcement.announcement }}
+    </div>
+    {% endfor %}
+</div>

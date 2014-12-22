@@ -13,8 +13,8 @@ body {
 }
 
 .main-page-title {
-	font-size: 42px;
-	letter-spacing: -1.75px;
+	font-size: 24px;
+	letter-spacing: 1.75px;
 	line-height: 1;
 	font-weight: 300;
 }
@@ -54,10 +54,6 @@ a:visited { color: #205caa; }
 
 /* Site header */
 
-.site-header {
-  min-height: 56px;
-}
-
 .gcer-banner {
   background-color: #011e41;
 }
@@ -72,10 +68,16 @@ a:visited { color: #205caa; }
 }
 
 .site-nav {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:        border-box;
   float: left;
   clear: left;
   line-height: 56px;
   width: 100%;
+  border-top: 2px solid black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
 }
 
 .site-nav .menu-icon { display: none; }
@@ -151,7 +153,6 @@ a:visited { color: #205caa; }
 
 .page-content {
   margin: 0 auto 0 auto;
-  width: 60%
   padding: 30px 0;
   background-color: #fff;
   max-width: 990px;
@@ -342,7 +343,6 @@ a:visited { color: #205caa; }
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 .announcements {
-  float: left;
   width: 30%;
 }
 
@@ -355,13 +355,22 @@ a:visited { color: #205caa; }
 }
 
 .content {
-  float: right;
-  width: 70%
+  float: left;
+  width: 60%
 }
 
 .left-panel {
-  max-width: 20%;
-  margin: 5%;
+  float: left;
+  max-width: 10%;
+  margin: 0% 4% 0% 4%;
+  font-size: 12px;
+}
+
+.right-panel {
+  float: right;
+  max-width: 10%;
+  margin: 0% 4% 0% 4%;
+  font-size: 12px;
 }
 
 .posts .post-details {
