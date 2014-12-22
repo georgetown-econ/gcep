@@ -1,9 +1,11 @@
-<div class="left-panel announcements">
+<div class="left-panel announcements panel-section">
   <h2>Announcements</h2>
 
+  <div class="panel-section-content">
     {% for announcement in site.data.announcements %}
-    <div class="announcement">
+    <div class="announcement panel-section-content-item">
       {{ announcement.announcement }}
     </div>
     {% endfor %}
+  </div>
 </div>

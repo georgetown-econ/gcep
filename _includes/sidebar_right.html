@@ -1,9 +1,34 @@
 <div class="right-panel announcements">
-  <h2>Announcements</h2>
+  <div class="panel-section">
+    <h2>Search</h2>
 
-    {% for announcement in site.data.announcements %}
-    <div class="announcement">
-      {{ announcement.announcement }}
+    <div class="panel-section-content">
+      <div>
+        Search by title (test)
+        <input type="text">
+      </div>
     </div>
-    {% endfor %}
+  </div>
+
+  <div class="panel-section">
+    <h2>Fewer Announcements</h2>
+
+    <div class="panel-section-content">
+      {% for announcement in site.data.announcements | limit: 2 %}
+      <div class="announcement panel-section-content-item">
+        {{ announcement.announcement }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="panel-section">
+    <h2>Contact GCEP</h2>
+
+    <div class="panel-section-content">
+      <div><a href="http://www.google.com">Test 1</a></div>
+      <div><a href="http://www.google.com">Test 2</a></div>
+      <div><a href="http://www.google.com">Test 3</a></div>
+    </div>
+  </div>
 </div>

@@ -113,6 +113,7 @@ a:visited { color: #205caa; }
   font-family: 'Questrial', Arial, Helvetica, sans-serif;
   border-top: 3px solid #867875;
   padding: 30px 0;
+  margin-top: 20px;
 }
 
 .footer-heading {
@@ -368,25 +369,21 @@ a:visited { color: #205caa; }
   font-size: 1.25em;
 }
 
-.announcements .announcement {
-  margin-bottom: 2em;
-}
-
 .content {
   float: left;
-  width: 65%
+  width: 450px;
 }
 
 .left-panel {
   float: left;
-  max-width: 10%;
+  width: 175px;
   margin: 0% 4% 0% 4%;
   font-size: 12px;
 }
 
 .right-panel {
   float: right;
-  max-width: 10%;
+  width: 175px;
   margin: 0% 4% 0% 4%;
   font-size: 12px;
 }
@@ -474,4 +471,38 @@ a:visited { color: #205caa; }
 		border-bottom-color:#b9d9ec !important;
 		background:#b9d9ec;
 		color:#000;
+}
+
+.panel-section {
+  margin-bottom: 30px;
+}
+
+.panel-section h2 {
+  border-left: 8px solid grey;
+  padding-left: 7px;
+  margin-bottom: 0px;
+}
+
+.panel-section .panel-section-content {
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 10px 10px 10px 15px;
+}
+
+.panel-section .panel-section-content .panel-section-content-item {
+  border-bottom: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.panel-section .panel-section-content .panel-section-content-item:first-child {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.panel-section .panel-section-content .panel-section-content-item:last-child {
+  border-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
