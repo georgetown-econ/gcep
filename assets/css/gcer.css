@@ -54,7 +54,28 @@ a:visited { color: #205caa; }
 
 /* Site header */
 
-.gcer-banner {
+header {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+header .bar {
+  background-color: black;
+  text-align: right;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Questrial', Arial, Helvetica, sans-serif;
+  margin-bottom: 2px;
+  padding-right: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  clear: both;
+}
+
+header .title {
+  float: left;
+  margin-bottom: 1px;
 }
 
 .gcer-banner #gcer-banner-image {
