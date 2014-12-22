@@ -44,7 +44,8 @@
 		color: #205caa;
 		font-size:16px;
 		line-height:17px;
-		font-family:Arial,sans-serif;
+		font-family: 'Questrial', Arial, Helvetica, sans-serif;
+    font-weight: bold;
 		text-decoration:none;
 		-moz-border-radius:4px 4px 0 0;
 		-webkit-border-radius:4px 4px 0 0;
