@@ -15,8 +15,8 @@
    version="1.1"
    inkscape:version="0.48.5 r10040"
    inkscape:export-filename="gcep-banner.png"
-   inkscape:export-xdpi="29.969999"
-   inkscape:export-ydpi="29.969999"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    sodipodi:docname="gcep-banner.svg">
   <defs
      id="defs4" />
@@ -65,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
