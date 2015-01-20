@@ -6,13 +6,21 @@
   link: "http://www9.georgetown.edu/faculty/fgv/"
   content: "Department Chair\nVillani Professor of Economics"
 
+- name: "Guido Kuersteiner"
+  image: "Kuersteiner.jpg"
+  width: 144
+  height: 184
+  alt: "Guido   Kuersteiner"
+  link: "http://explore.georgetown.edu/people/gk232/"
+  content: "Professor of Economics\nGeorgetown University"
+
 - name: "Franco Peracchi"
   image: "peracchi.JPG"
   width: 180
   height: 160
   alt: "Franco Peracchi"
   link: "http://www.eief.it/faculty-visitors/faculty-a-z/franco-peracchi/"
-  content: "Professor, Tor Vergata University."
+  content: "Professor of Econometrics\nUniveristy of Rome Tor Vergata"
 
 - name: "John Rust"
   image: "John_Rust.gif"
@@ -20,14 +28,7 @@
   height: 184
   alt: "John Rust"
   link: "http://gemini.econ.umd.edu/jrust/"
-  content: "Professor of Economics"
+  content: "Professor of Economics\nGeorgetown University"
 
-- name: "Guido Kuersteiner"
-  image: "Kuersteiner.jpg"
-  width: 144
-  height: 184
-  alt: "Guido   Kuersteiner"
-  link: "http://explore.georgetown.edu/people/gk232/"
-  content: "Professor of Economics"
 
 

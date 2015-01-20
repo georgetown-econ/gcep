@@ -8,10 +8,9 @@
 }
 
 .people .person {
-  float: left;
   width: 48%;
   margin-right: 2%;
-  height: 150px;
+  height: 100px;
 }
 
 .people .picture {
@@ -22,5 +21,4 @@
 .people .info .name {
   font-size: 1.1em;
   font-weight: 500;
-  margin-bottom: 15px;
 }
