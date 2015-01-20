@@ -1,5 +1,12 @@
 <div class="left-panel announcements panel-section">
-  <h2>Announcements</h2>
+  <div class="panel-section">
+    <h2> What is GCEP </h2>
+      <div class="panel-section-content">
+        GCEP provides a focus for development, understanding and application of methods for modelling individual behaviour, the influences on it and the impact of policy interventions.
+      </div>
+  </div>
+
+  <h2>Upcoming events</h2>
 
   <div class="panel-section-content">
     {% for announcement in site.data.announcements %}
@@ -8,4 +15,24 @@
     </div>
     {% endfor %}
   </div>
+
+  <h2>Next seminar</h2>
+
+  <div class="panel-section-content">
+    {% for seminar in site.data.seminars %}
+    <div class="announcement panel-section-content-item">
+      {{ seminar.seminar }}
+    </div>
+    {% endfor %}
+    <a href="/seminars/">More information</a>
+  </div>
+  
+  <h2>Keep in touch</h2>
+
+    <div class="panel-section-content">
+      <div>
+        Subscribe to GCEP news (test)
+        <input type="text">
+      </div>
+    </div>
 </div>

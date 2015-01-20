@@ -13,7 +13,7 @@ body {
 }
 
 .main-page-title {
-	font-size: 24px;
+	font-size: 30px;
 	letter-spacing: 1.75px;
 	line-height: 1;
 	font-weight: 300;
@@ -60,7 +60,7 @@ header {
 }
 
 header .bar {
-  background-color: #011e41;
+  background-color: #6babe5;
   text-align: right;
   color: white;
   font-size: 14px;
@@ -95,9 +95,9 @@ header .title {
   clear: left;
   line-height: 56px;
   width: 100%;
-  border-top: 2px solid #011e41;
-  border-left: 10px solid #011e41;
-  border-right: 10px solid #011e41;
+  border-top: 2px solid #6babe5;
+  border-left: 10px solid #6babe5;
+  border-right: 10px solid #6babe5;
   margin-bottom: 30px;
 }
 
@@ -138,44 +138,49 @@ header .title {
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: -.5px;
-  margin-bottom: 15px;
+}
+
+.footer-blurb {
+  float: right;
+  width: 200px;
 }
 
 .site-footer .column { float: left; margin-bottom: 15px; }
 
 .footer-col-1 {
   width: 270px; /*fallback*/
-  width: -webkit-calc(35% - 10px);
-  width: -moz-calc(35% - 10px);
-  width: -o-calc(35% - 10px);
-  width: calc(35% - 10px);
+  width: -webkit-calc(15% - 10px);
+  width: -moz-calc(15% - 10px);
+  width: -o-calc(15% - 10px);
+  width: calc(15% - 10px);
   margin-right: 10px
 }
 .footer-col-2 {
   width: 175px; /*fallback*/
-  width: -webkit-calc(23.125% - 10px);
-  width: -moz-calc(23.125% - 10px);
-  width: -o-calc(23.125% - 10px);
-  width: calc(23.125% - 10px);
+  width: -webkit-calc(15% - 10px);
+  width: -moz-calc(15% - 10px);
+  width: -o-calc(15% - 10px);
+  width: calc(15% - 10px);
   margin-right: 10px
 }
 .footer-col-3 {
   width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
+  width: -webkit-calc(15%);
+  width: -moz-calc(15%);
+  width: -o-calc(15%);
+  width: calc(15%);
 }
 
 .site-footer ul { list-style: none; }
 
 .site-footer li,
 .site-footer p {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: -.3px;
+  margin: 2px 0 2px 0;
 }
 
 .github-icon-svg,
@@ -202,7 +207,10 @@ header .title {
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
+.home h1 {
+  font-size: 20px;
+  margin-bottom: 25px; 
+}
 
 .posts {
   list-style-type: none;
@@ -473,7 +481,7 @@ header .title {
 }
 
 .seminar {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .publication {
