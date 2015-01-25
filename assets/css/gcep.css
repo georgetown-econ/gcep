@@ -582,3 +582,36 @@ header .title {
 
 .seminars .seminar .seminar-title {
 }
+
+/* Courses */
+.courses {
+}
+
+.courses .course:first-child {
+  padding-top: 0px;
+}
+
+.courses .course {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.courses .course .course-speaker {
+  display: inline;
+}
+
+.courses .course .course-workplace:before {
+  content: " - ";
+}
+
+.courses .course .course-workplace {
+  display: inline;
+}
+
+.courses .course .course-schedule {
+  color: #999999;
+}
+
+.courses .course .course-title {
+}

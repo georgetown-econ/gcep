@@ -12,21 +12,16 @@ permalink: /courses/
 
       <p>If you have any queries, please contact events team.</p>
 
-      <h1 style="margin-top: 30px">Upcoming training courses</h1>
-      <div class="seminar">
-        What's New in Stata</br>
-        May 21-22, 2015 : Georgetown University</br>
-        David Drukker Stata Corporation
-      </div>
-      <div class="seminar">
-        Program Evaluation</br>
-        June 18-19, 2015 : Georgetown University</br>
-        Francis Vella Georgetown University</br>
-      </div>
-      <div class="seminar">
-        Discrete Choice Modeling</br>
-        August 20-21, 2015 : Georgetown University</br>
-        William Green New York University</br>
+      <h1>Upcoming training courses</h1>
+      <div class="courses">
+        {% for course in site.data.courses %}
+        <div class="course panel-section-content-item">
+          <div class="course-title">{{ course.course.title }}</div>
+          <div class="course-schedule">{{ course.course.schedule }}</div>
+          <div class="course-speaker">{{ course.course.speaker }}</div>
+          <div class="course-workplace">{{ course.course.workplace }}</div>
+        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

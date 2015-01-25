@@ -10,12 +10,13 @@
   <h2>Upcoming courses</h2>
 
   <div class="panel-section-content">
-    {% for announcement in site.data.announcements %}
+    {% for course in site.data.courses | limit:2 %}
     <div class="announcement panel-section-content-item">
-      {{ announcement.announcement }}
+      <div class="course-schedule">{{ course.course.schedule }}</div>
+      <div class="course-speaker">{{ course.course.speaker }} - {{ course.course.workplace }}</div>
     </div>
     {% endfor %}
-    <a href="/seminars/">More information</a>
+    <a href="/courses/">More courses</a>
   </div>
 
   <h2>Upcoming seminars</h2>
@@ -28,7 +29,7 @@
       <div class="seminar-workplace">{{ seminar.seminar.workplace }}</div>
     </div>
     {% endfor %}
-    <a href="/seminars/">More information</a>
+    <a href="/seminars/">More seminars</a>
   </div>
   
   <h2>Keep in touch</h2>
