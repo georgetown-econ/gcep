@@ -12,11 +12,16 @@ permalink: /seminars/
       Seminars take place at the Department of Economics, ICC 550 between 4.15pm and 5.45pm unless otherwise stated. You do not need to book your place; please just come to the room entrance 5 minutes before the seminar starts.
       
       <h1>Upcoming seminars</h1>
-      <div class="seminar">
-        February 17, 2015: Stephane Bonhomme, University of Chicago
-      </div>
-      <div class="seminar">
-        February 24, 2015: Hidehiko Ichimura, University of Tokyo
+
+      <div class="seminars">
+        {% for seminar in site.data.seminars %}
+        <div class="seminar panel-section-content-item">
+          <div class="seminar-speaker">{{ seminar.seminar.speaker }}</div>
+          <div class="seminar-workplace">{{ seminar.seminar.workplace }}</div>
+          <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
+          <div class="seminar-title">{{ seminar.seminar.title }}</div>
+        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

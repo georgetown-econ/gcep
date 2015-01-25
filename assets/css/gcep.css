@@ -480,10 +480,6 @@ header .title {
   display: table-cell;
 }
 
-.seminar {
-  padding-bottom: 10px;
-}
-
 .publication {
   padding-bottom: 25px;
 }
@@ -502,6 +498,7 @@ header .title {
 		color:#000;
 }
 
+/* Panels (in sidebars). */
 .panel-section {
   margin-bottom: 30px;
 }
@@ -519,8 +516,9 @@ header .title {
   padding: 10px 10px 10px 15px;
 }
 
+/* Panel section contents (in sidebar), with borders */
 .panel-section .panel-section-content .panel-section-content-item {
-  border-bottom: 1px solid #867875;
+  border-bottom: 1px solid #CCCCCC;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -536,6 +534,7 @@ header .title {
   padding-bottom: 0px;
 }
 
+/* Panel section contents (in sidebar), without borders */
 .panel-section .panel-section-content .panel-section-content-item-no-border {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -549,4 +548,37 @@ header .title {
 .panel-section .panel-section-content .panel-section-content-item-no-border:last-child {
   padding-top: 5px;
   padding-bottom: 0px;
+}
+
+/* Seminars */
+.seminars {
+}
+
+.seminars .seminar:first-child {
+  padding-top: 0px;
+}
+
+.seminars .seminar {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.seminars .seminar .seminar-speaker {
+  display: inline;
+}
+
+.seminars .seminar .seminar-workplace:before {
+  content: " - ";
+}
+
+.seminars .seminar .seminar-workplace {
+  display: inline;
+}
+
+.seminars .seminar .seminar-schedule {
+  color: #999999;
+}
+
+.seminars .seminar .seminar-title {
 }
