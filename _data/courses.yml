@@ -3,11 +3,13 @@
     workplace: "Stata Corporation"
     schedule: "May 21-22, 2015: Georgetown University"
     title: "What's New in Stata"
+
 - course:
     speaker: "<a href=\"http://faculty.georgetown.edu/fgv/\">Francis Vella</a>"
     workplace: "Georgetown University"
     schedule: "June 18-19, 2015: Georgetown University"
     title: "Program Evaluation"
+
 - course:
     speaker: "<a href=\"http://people.stern.nyu.edu/wgreene/\">William Green</a>"
     workplace: "New York University"
