@@ -1,11 +1,11 @@
 <header class="site-header">
-<div class="gcer-banner">
+<div class="gcep-banner">
   <div class="title"><a href="/"><img src="/assets/images/gcep-banner.png" width="150px"></a></div>
   <div class="bar">georgetown center for econometric practice</div>
 </div>
 
     <nav class="site-nav">
-      <ul id="navigation" class="sm sm-mint" style="display: block;">
+      <ul id="navigation" class="sm" style="display: block;">
         {% for navitem in site.data.navigation %}
         <li>
           <a href="{{ navitem.url }}">{{ navitem.name }}</a>
@@ -16,10 +16,3 @@
 </header>
 
 <script type="text/javascript" src="/assets/js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.smartmenus.js"></script>
-
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('#navigation').smartmenus();
-  });
-</script>

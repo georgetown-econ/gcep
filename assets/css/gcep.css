@@ -13,17 +13,17 @@ body {
 }
 
 .main-page-title {
-	font-size: 30px;
-	letter-spacing: 1.75px;
-	line-height: 1;
-	font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 1.75px;
+  line-height: 1;
+  font-weight: 300;
 }
 
 .side-title {
   font-size: 30px;
-	letter-spacing: -1.75px;
-	line-height: 1;
-	font-weight: 300;
+  letter-spacing: -1.75px;
+  line-height: 1;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -101,7 +101,7 @@ header .title {
 }
 
 .site-nav ul {
-  padding-top: 12px;
+  padding-top: 6px;
   padding-bottom: 6px;
 }
 
@@ -115,8 +115,23 @@ header .title {
 }
 
 .site-nav ul li a {
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding: 2px 20px 2px 20px;
+  border-bottom:2px solid #fff;
+  color: #205caa;
+  font-size:16px;
+  line-height:17px;
+  font-family: 'Questrial', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration:none;
+  -moz-border-radius:4px 4px 0 0;
+  -webkit-border-radius:4px 4px 0 0;
+  border-radius:4px 4px 0 0;
+}
+
+.site-nav ul li a:hover {
+  border-bottom-color: #b9d9ec !important;
+  background: #b9d9ec;
+  color: #000;
 }
 
 /* Site footer */
@@ -464,12 +479,6 @@ header .title {
 
 .publication .authors {
   font-size: 14px;
-}
-
-.sm-mint a:hover {
-		border-bottom-color:#b9d9ec !important;
-		background:#b9d9ec;
-		color:#000;
 }
 
 /* Panels (in sidebars). */
