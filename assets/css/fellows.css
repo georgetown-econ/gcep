@@ -10,7 +10,7 @@
 .people .person {
   width: 48%;
   margin-right: 2%;
-  height: 100px;
+  padding-bottom: 20px;
 }
 
 .people .picture {
