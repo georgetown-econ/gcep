@@ -5,7 +5,7 @@
 </div>
 
     <nav class="site-nav">
-      <ul id="navigation" class="sm" style="display: block;">
+      <ul id="navigation">
         {% for navitem in site.data.navigation %}
         <li>
           <a href="{{ navitem.url }}">{{ navitem.name }}</a>
@@ -14,5 +14,3 @@
       </ul>
     </nav>
 </header>
-
-<script type="text/javascript" src="/assets/js/jquery-1.11.0.min.js"></script>
