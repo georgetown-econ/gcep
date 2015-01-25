@@ -78,15 +78,6 @@ header .title {
   margin-bottom: 1px;
 }
 
-.gcer-banner #gcer-banner-image {
-  max-height: 80px;
-  width: auto;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 .site-nav {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
