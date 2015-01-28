@@ -145,9 +145,7 @@ header .title {
 }
 
 .site-nav ul li a:hover {
-  border-bottom-color: #b9d9ec !important;
-  background: #b9d9ec;
-  color: #000;
+  color: #F27300;
 }
 
 /* Site footer */
