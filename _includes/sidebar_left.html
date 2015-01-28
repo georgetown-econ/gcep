@@ -13,7 +13,8 @@
     {% for course in site.data.courses | limit:2 %}
     <div class="announcement panel-section-content-item">
       <div class="course-schedule">{{ course.course.schedule }}</div>
-      <div class="course-speaker">{{ course.course.speaker }} - {{ course.course.workplace }}</div>
+      <div class="course-speaker">{{ course.course.speaker }}</div>
+      <div class="course-workplace">{{ course.course.workplace }}</div>
     </div>
     {% endfor %}
     <a href="/courses/">More courses »</a>

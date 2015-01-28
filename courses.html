@@ -16,10 +16,10 @@ permalink: /courses/
       <div class="courses">
         {% for course in site.data.courses %}
         <div class="course panel-section-content-item">
-          <div class="course-title">{{ course.course.title }}</div>
           <div class="course-schedule">{{ course.course.schedule }}</div>
           <div class="course-speaker">{{ course.course.speaker }}</div>
           <div class="course-workplace">{{ course.course.workplace }}</div>
+          <div class="course-title">{{ course.course.title }}</div>
         </div>
         {% endfor %}
       </div>

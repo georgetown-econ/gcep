@@ -16,9 +16,9 @@ permalink: /seminars/
       <div class="seminars">
         {% for seminar in site.data.seminars %}
         <div class="seminar panel-section-content-item">
+          <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
           <div class="seminar-speaker">{{ seminar.seminar.speaker }}</div>
           <div class="seminar-workplace">{{ seminar.seminar.workplace }}</div>
-          <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
           <div class="seminar-title">{{ seminar.seminar.title }}</div>
         </div>
         {% endfor %}
