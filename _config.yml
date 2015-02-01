@@ -1,7 +1,7 @@
 # Site settings
 title: GCEP
 email: econdesk@georgetown.edu
-description: "GCEP is an initiative by the Department of Economics in Georgetown University and CEMMAP."
+description: "GCEP is an initiative by the Department of Economics at Georgetown University and CeMMAP."
 baseurl: ""
 
 url: "http://localhost:3000/"
