@@ -7,38 +7,41 @@
       </div>
   </div>
 
-  <h2>Upcoming courses</h2>
-
-  <div class="panel-section-content">
-    {% for course in site.data.courses | limit:2 %}
-    <div class="announcement panel-section-content-item">
-      <div class="course-schedule">{{ course.course.schedule }}</div>
-      <div class="course-speaker">{{ course.course.speaker }}</div>
-      <div class="course-workplace">{{ course.course.workplace }}</div>
+  <div class="panel-section">
+    <h2>Upcoming courses</h2>
+    <div class="panel-section-content">
+      {% for course in site.data.courses | limit:2 %}
+      <div class="announcement panel-section-content-item">
+        <div class="course-schedule">{{ course.course.schedule }}</div>
+        <div class="course-speaker">{{ course.course.speaker }}</div>
+        <div class="course-workplace">{{ course.course.workplace }}</div>
+      </div>
+      {% endfor %}
+      <a href="/courses/">More courses »</a>
     </div>
-    {% endfor %}
-    <a href="/courses/">More courses »</a>
   </div>
 
-  <h2>Upcoming seminars</h2>
-
-  <div class="panel-section-content">
-    {% for seminar in site.data.seminars | limit:2 %}
-    <div class="announcement panel-section-content-item">
-      <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
-      <div class="seminar-speaker">{{ seminar.seminar.speaker }}</div>
-      <div class="seminar-workplace">{{ seminar.seminar.workplace }}</div>
+  <div class="panel-section">
+    <h2>Upcoming seminars</h2>
+    <div class="panel-section-content">
+      {% for seminar in site.data.seminars | limit:2 %}
+      <div class="announcement panel-section-content-item">
+        <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
+        <div class="seminar-speaker">{{ seminar.seminar.speaker }}</div>
+        <div class="seminar-workplace">{{ seminar.seminar.workplace }}</div>
+      </div>
+      {% endfor %}
+      <a href="/seminars/">More seminars »</a>
     </div>
-    {% endfor %}
-    <a href="/seminars/">More seminars »</a>
   </div>
-  
-  <h2>Keep in touch</h2>
 
+  <div class="panel-section">
+    <h2>Keep in touch</h2>
     <div class="panel-section-content">
       <div>
         Subscribe to GCEP news (test)
         <input type="text">
       </div>
     </div>
+  </div>
 </div>
