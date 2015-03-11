@@ -1,16 +1,4 @@
 - seminar:
-    speaker: "<a href=\"https://economics.uchicago.edu/facstaff/bonhomme.shtml\">Stéphane Bonhomme</a>"
-    workplace: "University of Chicago"
-    schedule: "February 17, 2015"
-    title: "Matched Employer Employee Data"
-
-- seminar:
-    speaker: "<a href=\"http://www.cemmap.ac.uk/person/id/43\">Hidehiko Ichimura</a>"
-    workplace: "University of Tokyo"
-    schedule: "February 25, 2015"
-    title: "Conditioning Variables in Program Evaluation Methods"
-
-- seminar:
     speaker: "<a href=\"http://econ.jhu.edu/directory/nicholas-papageorge/\">Nicholas Papageorge</a>"
     workplace: "Johns Hopkins University"
     schedule: "March 17, 2015"
