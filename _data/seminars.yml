@@ -1,26 +1,32 @@
 - seminar:
+    speaker: "<a href=\"http://www.e.u-tokyo.ac.jp/fservice/faculty/ichimura/ichimura.e/ichimura01.e.html\">Hidehiko Ichimura</a>"
+    workplace: "University of Tokyo"
+    schedule: "February 24, 2015"
+    title: "Conditioning Variables in Program Evaluation Methods"
+
+- seminar:
     speaker: "<a href=\"http://econ.jhu.edu/directory/nicholas-papageorge/\">Nicholas Papageorge</a>"
     workplace: "Johns Hopkins University"
     schedule: "March 17, 2015"
-    title: "Title to be confirmed"
+    title: "The Economic Value of Breaking Bad: Misbehaviour, Schooling and the Labor Market"
 
 - seminar:
     speaker: "<a href=\"http://economics.virginia.edu/people/kmc2yf\">Karim Chalak</a>"
     workplace: "University of Virginia"
     schedule: "March 25, 2015"
-    title: "Title to be confirmed"
+    title: "Identification of Average Effects under Magnitude and Sign Restrictions on Cofounding"
 
 - seminar:
     speaker: "<a href=\"http://www.ssc.wisc.edu/~cfu/\">Chao Fu</a>"
     workplace: "University of Wisconsin-Madison"
     schedule: "March 31, 2015"
-    title: "Title to be confirmed"
+    title: "Structural Estimation of a Model of School Choices: the Boston Mechanism vs. Its Alternatives"
 
 - seminar:
     speaker: "<a href=\"http://economics.virginia.edu/people/dn4w\">Denis Nekipelov</a>"
     workplace: "University of Virginia"
     schedule: "April 14, 2015"
-    title: "Title to be confirmed"
+    title: "A/B Testing of Auctions"
 
 - seminar:
     speaker: "<a href=\"http://www.ssc.wisc.edu/~agandhi/homepage/Amit_Gandhi.html\">Amit Gandhi</a>"
