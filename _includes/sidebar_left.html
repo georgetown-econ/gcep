@@ -25,7 +25,7 @@
   <div class="panel-section">
     <h2>Upcoming seminars</h2>
     <div class="panel-section-content">
-      {% for seminar in site.data.seminars | limit:2 %}
+      {% for seminar in site.data.seminars-sidebar | limit:2 %}
       <div class="announcement panel-section-content-item">
         <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
         <div class="seminar-speaker">{{ seminar.seminar.speaker }}</div>
