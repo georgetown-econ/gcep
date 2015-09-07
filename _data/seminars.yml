@@ -4,3 +4,38 @@
     schedule: "September 8, 2015"
     title: "To be confirmed"
     
+- seminar:
+    speaker: "<a href=\"http://michaelgechter.com/\"> Michael Gechter </a>"
+    workplace: "Pennsylvania State University"
+    schedule: "September 8, 2015"
+    title: "To be confirmed"
+    
+- seminar:
+    speaker: "<a href=\"http://www.ssc.wisc.edu/~agandhi/homepage/Amit_Gandhi.html\"> Amit Gandhi </a>"
+    workplace: "University of Wisconsin-Madison"
+    schedule: "September 22, 2015"
+    title: "To be confirmed"
+   
+- seminar:
+    speaker: "<a href=\"http://economics.emory.edu/home/people/faculty/Rubioramirezjuan.html\"> Juan Rubio-Ramirez </a>"
+    workplace: "Emory University"
+    schedule: "October 27, 2015"
+    title: "To be confirm"
+    
+- seminar:
+    speaker: "<a href=\"http://economics.rice.edu/faculty/fl%C3%A1vio-cunha\"> Flavio Cunha </a>"
+    workplace: "Rice University"
+    schedule: "November 10, 2015"
+    title: "To be confirm"
+    
+- seminar:
+    speaker: "<a href=\"http://www.econ2.jhu.edu/people/ccarroll/\"> Christopher Carroll </a>"
+    workplace: "Johns Hopkins University"
+    schedule: "November 17, 2015"
+    title: "To be confirm"
+    
+- seminar:
+    speaker: "<a href=\"http://economics.yale.edu/people/joseph-g-altonji\"> Joe Altonji </a>"
+    workplace: "Yale University"
+    schedule: "December 1, 2015"
+    title: "To be confirm"
