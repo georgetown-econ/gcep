@@ -1,0 +1,30 @@
+---
+layout: default
+title: Previous Courses
+permalink: /previous-courses/
+published: true
+---
+
+
+<div class="home">
+  <div class="content">
+    <div class="section">
+
+      <h1>Spring/Summer 2015</h1>
+      <div class="courses">
+        {% for course in site.data.courses %}
+        <div class="course panel-section-content-item">
+          <div class="course-schedule">{{ course.course.schedule }}</div>
+          <div class="course-speaker">{{ course.course.speaker }}</div>
+          <div class="course-workplace">{{ course.course.workplace }}</div>
+          <div class="course-title">{{ course.course.title }}</div>
+          <div class="course-button">{{ course.course.button_student }}</div>
+          <div class="course-button">{{ course.course.button_government }}</div>
+          <div class="course-button">{{ course.course.button_general }}</div>
+        </div>
+        {% endfor %}   
+      </div>
+      
+    </div>
+  </div>
+</div>
