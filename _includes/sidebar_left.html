@@ -21,6 +21,20 @@
       <a href="/courses/">More courses »</a>
     </div>
   </div>
+  
+<div class="panel-section">
+    <h2>Upcoming masterclasses</h2>
+    <div class="panel-section-content">
+      {% for masterclasses in site.data.masterclasses-sidebar | limit:2 %}   
+      <div class="announcement panel-section-content-item">
+        <div class="masterclasses-schedule"></div>
+        <div class="masterclasses-speaker"></div>
+        <div class="masterclasses-workplace"></div>
+      </div>
+      {% endfor %}
+      <a href="/masterclasses/">More masterclasses »</a>
+    </div>
+ </div>
 
   <div class="panel-section">
     <h2>Upcoming seminars</h2>
