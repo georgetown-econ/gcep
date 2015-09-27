@@ -19,17 +19,21 @@ published: true
       <p><a href="/booking">Register for a masterclass here</a></p>
       
     <h1>Fall 2015</h1>    
-     <div class="masterclasses">    
-        <div class="masterclasses panel-section-content-item">
-          <div class="masterclasses-schedule">{{ masterclasses.masterclasses.schedule }}</div>
-          <div class="masterclasses-speaker">{{ masterclasses.masterclasses.speaker }}</div>
-          <div class="masterclasses-workplace">{{ masterclasses.masterclasses.workplace }}</div>
-          <div class="masterclasses-title">{{ masterclasses.masterclasses.title }}</div>
-          <div class="masterclasses-outline">{{ masterclasses.masterclasses.schedule }}</div>
-          <div class="masterclasses-button">{{ masterclasses.masterclasses.button_student }}</div>
-          <div class="masterclasses-button">{{ masterclasses.masterclasses.button_government }}</div>
-          <div class="masterclasses-button">{{ masterclasses.masterclasses.button_general }}</div>
+    
+    <div class="masterclasses">    
+        {% for masterclass in site.data.masterclasses %}
+        <div class="masterclass panel-section-content-item">
+          <div class="masterclass-schedule">{{ masterclass.masterclass.schedule }}</div>
+          <div class="masterclass-speaker">{{ masterclass.masterclass.speaker }}</div>
+          <div class="masterclass-workplace">{{ masterclass.masterclass.workplace }}</div>
+          <div class="masterclass-title">{{ masterclass.masterclass.title }}</div>
+          
+          <div class="masterclass-outline">{{ masterclass.masterclass.outline }}</div>
+          <div class="masterclass-button">{{ masterclass.masterclass.button_student }}</div>
+          <div class="masterclass-button">{{ masterclass.masterclass.button_government }}</div>
+          <div class="masterclass-button">{{ masterclass.masterclass.button_general }}</div>
         </div>
+        {% endfor %}  
      </div>
     
 

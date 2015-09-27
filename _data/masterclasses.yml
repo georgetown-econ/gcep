@@ -1,0 +1,13 @@
+
+- masterclass:
+    speaker: "<a href=\"http://economics.yale.edu/people/steven-t-berry/\"> Stephen T. Berry </a>"
+    workplace: "Yale University"
+    schedule: "December 7-8, 2015"
+    title: "Empirical Models of Differentiated Products"
+    
+    outline: "This course considers the identification and estimation of models of market equilibrium with differentiated products, including  applications to various policy-relevant markets.  Most real-world markets feature differentiated products, in reputation and service quality if not in explicit product characteristics.  Examples include private markets for physically differentiated goods (automobiles) and markets for various media products (newspapers), as well as for partially privatized and  highly regulated goods (such as education in many countries).   In the course, we consider how data can reveal demand and cost parameters, including recent results on formal identification. We go on to discuss theoretical, practical and computational aspects of estimation.  While many of the models condition on the set of products being offered, we also consider models with endogenous products characteristics, such as location, type and quality of the product.  Empirical applications feature policy relevant markets like health, media and education, as well as classic applications to antitrust analysis."
+    
+    
+
+
+    
