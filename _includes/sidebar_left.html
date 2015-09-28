@@ -11,7 +11,7 @@
   <div class="panel-section">
     <h2>Upcoming courses</h2>
     <div class="panel-section-content">
-      {% for course in site.data.courses | limit:2 %}
+      {% for course in site.data.courses-sidebar | limit:2 %}
       <div class="announcement panel-section-content-item">
         <div class="course-schedule">{{ course.course.schedule }}</div>
         <div class="course-speaker">{{ course.course.speaker }}</div>
@@ -25,7 +25,7 @@
 <div class="panel-section">
     <h2>Upcoming masterclasses</h2>
     <div class="panel-section-content">
-      {% for masterclass in site.data.masterclasses | limit:2 %}   
+      {% for masterclass in site.data.masterclasses-sidebar | limit:2 %}   
       <div class="announcement panel-section-content-item">
         <div class="masterclass-schedule">{{ masterclass.masterclass.schedule }}</div>
         <div class="masterclass-speaker">{{ masterclass.masterclass.speaker }}</div>
