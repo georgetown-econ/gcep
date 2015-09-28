@@ -1,21 +1,24 @@
 - course:
-    speaker: "<a href=\"http://www.icpsr.umich.edu/icpsrweb/sumprog/instructors/59247/\"> William Greene </a>"
-    workplace: "New York University"
-    schedule: "August 20-21, 2015"
-    title: "Discrete Choice Modeling"
-
-- course:
-    speaker: "<a href=\"http://faculty.georgetown.edu/fgv/\"> Francis Vella </a>"
-    workplace: "Georgetown University"
-    schedule: "June 17-18, 2015"
-    title: "Program Evaluation"
-     
-- course:
     speaker: "<a href=\"http://people.stern.nyu.edu/wgreene/\"> David Drukker </a>"
     workplace: "State Corporation"
     schedule: "May 7-8, 2015"
     title: "Implementing Econometric Estimators in Stata"
     
+- course:
+    speaker: "<a href=\"http://faculty.georgetown.edu/fgv/\"> Francis Vella </a>"
+    workplace: "Georgetown University"
+    schedule: "June 17-18, 2015"
+    title: "Program Evaluation"     
+    
+- course:
+    speaker: "<a href=\"http://www.icpsr.umich.edu/icpsrweb/sumprog/instructors/59247/\"> William Greene </a>"
+    workplace: "New York University"
+    schedule: "August 20-21, 2015"
+    title: "Discrete Choice Modeling"
+
+    
+     
+
     
     
 
