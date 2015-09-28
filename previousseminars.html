@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Seminars
-permalink: /seminars/
+title: Previous Seminars
+permalink: /previousseminars/
 published: true
 ---
 
@@ -9,15 +9,11 @@ published: true
 <div class="home">
   <div class="content">
     <div class="section">
-      <h1 class="main-page-title">{{ page.title }}</h1>
+      <h1 class="main-page-title">Previous Seminars</h1>
 
-      Seminars take place at the Department of Economics, ICC 550, between 4.00pm and 5.30pm unless otherwise stated. You
-      do not need to book your place; just come to the room entrance 5 minutes before the seminar starts.
-
-      <h1>Fall 2015</h1>
-
-      <div class="seminars">
-        {% for seminar in site.data.seminars %}
+      <h1>Spring 2015</h1>
+       <div class="seminars">
+        {% for seminar in site.data.previousseminars %}
         <div class="seminar panel-section-content-item">
           <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
           <div class="seminar-speaker">{{ seminar.seminar.speaker }}</div>
@@ -25,10 +21,10 @@ published: true
           <div class="seminar-title">{{ seminar.seminar.title }}</div>
         </div>
         {% endfor %}
-          
-       <h1><a href="/previousseminars/">Spring 2015</a></h1>
+
       
       </div>
+          
     </div>
   </div>
 </div>

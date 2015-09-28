@@ -1,0 +1,48 @@
+ - seminar:
+    speaker: "<a href=\"https://sites.google.com/site/robertosteripersonalpage/\"> Roberto Steri </a>"
+    workplace: "University of Lausanne"
+    schedule: "May 4, 2015"
+    title: "Dynamic Corporate Liquidity"
+        
+ - seminar:
+    speaker: "<a href=\"http://artsci.wustl.edu/~pantano/\"> Juan Pantano </a>"
+    workplace: "Washington University in St. Louis"
+    schedule: "April 28, 2015"
+    title: "Policy Interventions when Medical Treatment Dynamics Matter: The Case of in Vitro Fertilization"
+    
+ - seminar:
+    speaker: "<a href=\"http://economics.virginia.edu/people/dn4w/\"> Denis Nekipelov </a>"
+    workplace: "University of Virginia"
+    schedule: "April 14, 2015"
+    title: "A/B Testing of Auctions"
+    
+ - seminar:
+    speaker: "<a href=\"http://www.ssc.wisc.edu/~cfu/\"> Chao Fu </a>"
+    workplace: "University of Wisconsin"
+    schedule: "March 31, 2015"
+    title: "Structural Estimation of a Model of School Choices: The Boston Mechanism vs. Its Alternatives"
+    
+ - seminar:
+    speaker: "<a href=\"http://economics.virginia.edu/people/kmc2yf/\"> Karim Chalak </a>"
+    workplace: "University of Virginia"
+    schedule: "March 24, 2015"
+    title: "Identification of Average Effects under Magnitude and Sign Restrictions on Confounding"
+
+ - seminar:
+    speaker: "<a href=\"http://econ.jhu.edu/directory/nicholas-papageorge/\"> Nicholas Papageorge </a>"
+    workplace: "Johns Hopkins University"
+    schedule: "March 17, 2015"
+    title: "The Economic Value of Breaking Bad: Misbehavior, Schooling and the Labor Market"
+    
+ - seminar:
+    speaker: "<a href=\"http://public.econ.duke.edu/~get/\"> George Tauchen </a>"
+    workplace: "Duke University"
+    schedule: "March 3, 2015"
+    title: "Jump Regressions"
+    
+- seminar:
+    speaker: "<a href=\"http://www.e.u-tokyo.ac.jp/fservice/faculty/ichimura/ichimura.e/ichimura01.e.html/\"> Hidehiko Ichimura </a>"
+    workplace: "University of Tokyo"
+    schedule: "February 24, 2015"
+    title: "Conditioning Variables in Program Evaluation Methods"
+    
