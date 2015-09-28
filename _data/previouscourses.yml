@@ -1,0 +1,19 @@
+- course:
+    speaker: "<a> William Greene </a>"
+    workplace: "New York University"
+    schedule: "August 20-21, 2015"
+    title: "Discrete Choice Modeling"
+
+- course:
+    speaker: "<a> Francis Vella </a>"
+    workplace: "Georgetown University"
+    schedule: "June 17-18, 2015"
+    title: "Program Evaluation"
+     
+- course:
+    speaker: "<a> David Drukker </a>"
+    workplace: "State Corporation"
+    schedule: "May 7-8, 2015"
+    title: "Implementing Econometric Estimators in Stata"
+    
+
