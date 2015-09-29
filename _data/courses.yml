@@ -5,9 +5,16 @@
     title: "Program Evaluation"
     
 - course:
+    speaker: "<a href=\"http://people.stern.nyu.edu/wgreene/\"> William Greene</a>"
+    workplace: "New York University"
+    schedule: "May 12-13, 2016"
+    title: "Discrete Choice Models"
+    
+- course:
     speaker: "<a href=\"http://faculty.georgetown.edu/baileyma/\"> Michael Bailey </a>"
     workplace: "Georgetown University"
-    schedule: "May 12-13, 2016"
+    schedule: "June 9-10, 2016"
     title: "Panel Data Modeling"
+    
     
 
