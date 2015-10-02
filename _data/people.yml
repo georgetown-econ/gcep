@@ -1,11 +1,3 @@
-- name: "Guido Kuersteiner"
-  image: "Kuersteiner.jpg"
-  width: 144
-  height: 184
-  alt: "Guido   Kuersteiner"
-  link: "http://explore.georgetown.edu/people/gk232/"
-  content: "Georgetown University"
-
 - name: "Franco Peracchi"
   image: "peracchi.JPG"
   width: 180
