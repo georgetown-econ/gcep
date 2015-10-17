@@ -15,6 +15,12 @@
     workplace: "University of Pennsylvania"
     schedule: "October 13, 2015"
     title: "Shrinkage Estimation of High-Dimensional Factor Models with Structural Instabilities"
+    
+- seminar:
+    speaker: "<a href=\"http://econ.jhu.edu/directory/yuya-sasaki/\"> Yuya Sasaki </a>"
+    workplace: "Johns Hopkins University"
+    schedule: "October 20, 2015"
+    title: "A Fixed Point Approach to Infinite Mixture Models and Direct Counterfactual Analysis "
    
 - seminar:
     speaker: "<a href=\"http://economics.emory.edu/home/people/faculty/Rubioramirezjuan.html\"> Juan Rubio-Ramirez </a>"
