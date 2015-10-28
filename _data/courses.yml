@@ -3,6 +3,7 @@
     workplace: "University of Michigan"
     schedule: "April 27-28, 2016"
     title: "Program Evaluation"
+    button_general: "<div data-button_background_color=\"280da3\" data-button_text_color=\"ffffff\" data-buy_button_text=\"General\" data-display_size=\"compact\" data-embed_type=\"product\" data-first_variant_id=\"1352683521\" data-has_image=\"false\" data-product_handle=\"francis-vella-georgetown-university-general\" data-product_name=\"Matias Cattaneo - Georgetown University (General)\" data-redirect_to=\"checkout\" data-shop=\"gcep-course-shop.myshopify.com\"></div><script type=\"text/javascript\">document.getElementById('ShopifyEmbedScript') || document.write('<script type=\"text/javascript\" src=\"https://widgets.shopifyapps.com/assets/widgets/embed/client.js\" id=\"ShopifyEmbedScript\"><\\/script>');</script><noscript><a href=\"https://gcep-course-shop.myshopify.com/cart/1352683521:1\" target=\"_blank\">Buy Matias Cattaneo - Georgetown University (General)</a></noscript>"
     
 - course:
     speaker: "<a href=\"http://people.stern.nyu.edu/wgreene/\"> William Greene</a>"
