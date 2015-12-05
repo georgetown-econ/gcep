@@ -1,54 +1,36 @@
 
 - seminar:
-    speaker: "<a href=\"http://michaelgechter.com/\"> Michael Gechter </a>"
-    workplace: "Pennsylvania State University"
-    schedule: "September 8, 2015"
-    title: "Generalizing the Results from Social Experiments: Theory and Evidence from Mexico and India"
+    speaker: "<a href=\"http://www.ssc.wisc.edu/~agandhi/homepage/Amit_Gandhi.html\"> Amit Gandhi </a>"
+    workplace: "University of Wisconsin-Madison"
+    schedule: "February 16, 2016"
+    title: "Title to be announced"
     
 - seminar:
-    speaker: "<a href=\"http://explore.georgetown.edu/people/nhm27\"> Nathan Miller </a>"
-    workplace: "Georgetown University"
-    schedule: "September 16, 2015"
-    title: "Merger Facilitate Tacit Collusion: Empirical Evidence from the U.S. Brewing Industry"
+    speaker: "<a href=\"http://sites.duke.edu/federicobugni/\"> Federico Bugni </a>"
+    workplace: "Duke University"
+    schedule: "February 23, 2016"
+    title: "Title to be announced"
     
 - seminar:
-    speaker: "<a href=\"https://sites.google.com/site/xucheng06/\"> Xu Cheng </a>"
-    workplace: "University of Pennsylvania"
-    schedule: "October 13, 2015"
-    title: "Shrinkage Estimation of High-Dimensional Factor Models with Structural Instabilities"
+    speaker: "<a href=\"https://sites.google.com/site/stephanebonhommeresearch/\"> Stéphane Bonhomme </a>"
+    workplace: "University of Chicago"
+    schedule: "March 1, 2016"
+    title: "Title to be announced"
     
 - seminar:
-    speaker: "<a href=\"http://econ.jhu.edu/directory/yuya-sasaki/\"> Yuya Sasaki </a>"
-    workplace: "Johns Hopkins University"
-    schedule: "October 20, 2015"
-    title: "A Fixed Point Approach to Infinite Mixture Models and Direct Counterfactual Analysis "
+    speaker: "<a href=\"http://economics.emory.edu/home/people/faculty/Zhatao.html\"> Tao Zha </a>"
+    workplace: "Emory University"
+    schedule: "March 22, 2016"
+    title: "Title to be announced"
    
 - seminar:
-    speaker: "<a href=\"http://economics.emory.edu/home/people/faculty/Rubioramirezjuan.html\"> Juan Rubio-Ramirez </a>"
-    workplace: "Emory University"
-    schedule: "October 27, 2015"
-    title: "Inference based on SVARs Identified with Sign and Zero Restrictions: Theory and Applications"
+    speaker: "<a href=\"http://econ.columbia.edu/miikka-rokkanen\"> Mikka Rokkanen </a>"
+    workplace: "Columbia University"
+    schedule: "March 29, 2016"
+    title: "Title to be announced"
       
 - seminar:
-    speaker: "<a href=\"http://www.newyorkfed.org/research/economists/delnegro/\"> Marco Del Negro </a>"
-    workplace: "Federal Reserve Bank of New York"
-    schedule: "November 3, 2015"
-    title: "<a href=/assets/resources/Marco_DynamicPredictionPools.pdf> Dynamic Prediction Pools: An Investigation  of Financial Frictions and Forecasting Performance </a>"
-
-- seminar:
-    speaker: "<a href=\"http://economics.rice.edu/faculty/fl%C3%A1vio-cunha\"> Flavio Cunha </a>"   
-    workplace: "Rice University"
-    schedule: "November 10, 2015"
-    title: "<a href=/assets/resources/Cunha_Elo_Culhane_2015.pdf> Eliciting Maternal Subjective Expectations about the Technology of Cognitive Skill Formation </a>"
-    
-- seminar:
-    speaker: "<a href=\"http://www.econ2.jhu.edu/people/ccarroll/\"> Christopher Carroll </a>"
-    workplace: "Johns Hopkins University"
-    schedule: "November 17, 2015"
-    title: "<a href=\"http://www.econ2.jhu.edu/people/ccarroll/papers/cstwMPC/\"> The Distribution of Wealth and the Marginal Propensity to Consume </a>"
-    
-- seminar:
-    speaker: "<a href=\"http://economics.yale.edu/people/joseph-g-altonji\"> Joe Altonji </a>"
-    workplace: "Yale University"
-    schedule: "December 1, 2015"
-    title: "<a href=/assets/resources/Altonji_Mansfield_2014.pdf> Unobservables When Estimating Group Treatment Effects: The Case of School and Neighborhood Effects </a>"
+    speaker: "<a href=\"https://sites.google.com/a/wisc.edu/rasmus-lentz/\"> Rasmus Lentz </a>"
+    workplace: "University of Wisconsin-Madison"
+    schedule: "April 5, 2016"
+    title: "Title to be announced"

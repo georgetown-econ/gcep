@@ -1,0 +1,29 @@
+---
+layout: default
+title: Fall 2015 Seminars
+permalink: /fall2015seminars/
+published: true
+---
+
+
+<div class="home">
+  <div class="content">
+    <div class="section">
+      <h1 class="main-page-title">Fall 2015 Seminars</h1>
+
+       <div class="seminars">
+        {% for seminar in site.data.fall2015seminars %}
+        <div class="seminar panel-section-content-item">
+          <div class="seminar-schedule">{{ seminar.seminar.schedule }}</div>
+          <div class="seminar-speaker">{{ seminar.seminar.speaker }}</div>
+          <div class="seminar-workplace">{{ seminar.seminar.workplace }}</div>
+          <div class="seminar-title">{{ seminar.seminar.title }}</div>
+        </div>
+        {% endfor %}
+
+      
+      </div>
+          
+    </div>
+  </div>
+</div>
